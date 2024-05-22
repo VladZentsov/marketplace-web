@@ -1,0 +1,21 @@
+.styled-button {
+    background-color: #28a745; /* Зеленый цвет */
+    color: white;
+    padding: 12px 24px; /* Немного больше отступов */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px; /* Увеличенный размер шрифта */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Плавный переход и анимация */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Тень для кнопки */
+  }
+  
+  .styled-button:hover {
+    background-color: #218838; /* Темно-зеленый цвет при наведении */
+    transform: translateY(-2px); /* Немного поднимаем кнопку при наведении */
+  }
+  
+  .styled-button:active {
+    background-color: #1e7e34; /* Темно-зеленый цвет при нажатии */
+    transform: translateY(0); /* Сбрасываем подъем кнопки при нажатии */
+  }
